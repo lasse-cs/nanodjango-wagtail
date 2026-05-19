@@ -7,7 +7,7 @@ with defer:
 
 app = Django(
     WAGTAIL_SITE_NAME="Hello from Nanotail!",
-    WAGTAILAILADMIN_BASE_URL="http://localhost:8000",
+    WAGTAILADMIN_BASE_URL="http://localhost:8000",
 )
 
 

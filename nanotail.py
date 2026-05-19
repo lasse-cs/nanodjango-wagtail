@@ -37,7 +37,6 @@ def django_pre_setup(app: Django):
     settings.MIDDLEWARE.append(redirect_middleware)
 
     def monkey_prepare(self, is_prod=False):
-        print("Preparing!")
         if self._prepared:
             return
 
