@@ -412,9 +412,9 @@ wheels = [
 ]
 
 [[package]]
-name = "nanotail"
+name = "nanodjango-wagtail"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "nanodjango" },
     { name = "wagtail" },
