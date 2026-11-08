@@ -1,7 +1,6 @@
 from types import MethodType
 
 from django.urls import include, path, re_path
-
 from nanodjango import Django, hookimpl
 from nanodjango.urls import urlpatterns
 

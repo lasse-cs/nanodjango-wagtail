@@ -1,7 +1,5 @@
 from nanodjango import Django
-
 from wagtail import hooks
-
 
 app = Django(
     WAGTAIL_SITE_NAME="Hello from Nanotail!",
